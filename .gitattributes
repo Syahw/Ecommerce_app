@@ -1,0 +1,6 @@
+# Force Dart to be recognized as the primary language
+*.dart linguist-language=Dart
+
+# Optionally ignore C++ native files if present
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
