@@ -26,22 +26,22 @@ class Shop extends ChangeNotifier {
   final List<Product> _shop = [
     Product(
         name: "White Sweatshirt",
-        price: 99.99,
+        price: 79.99,
         description: "Soft and cozy white sweatshirt for casual wear.",
         imagePath: "assets/nike_1.webp"),
     Product(
         name: "Dark Sweater",
-        price: 99.99,
+        price: 89.99,
         description: "Warm and stylish dark sweater for the winter season.",
         imagePath: "assets/nike_2.jpg"),
     Product(
         name: "White Formal Jacket",
-        price: 99.99,
+        price: 129.99,
         description: "Elegant white formal jacket for special occasions.",
         imagePath: "assets/nike_3.avif"),
     Product(
         name: "Windbreaker",
-        price: 99.99,
+        price: 69.99,
         description:
             "Lightweight and water-resistant windbreaker for outdoor activities.",
         imagePath: "assets/nike_4.webp")

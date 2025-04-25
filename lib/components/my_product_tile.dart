@@ -83,7 +83,7 @@ class MyProductTile extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(product.price.toStringAsFixed(2)),
+              Text('\$ ${product.price.toStringAsFixed(2)}'),
               Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(

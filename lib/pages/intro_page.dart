@@ -2,6 +2,7 @@
 
 import 'package:ecommerce_app/components/my_button.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -15,11 +16,7 @@ class IntroPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               //logo
-              Icon(
-                Icons.shopping_bag,
-                size: 72,
-                color: Theme.of(context).colorScheme.inversePrimary,
-              ),
+              Lottie.asset('assets/Cart_Animation.json', height: 70, width: 70),
               SizedBox(
                 height: 25,
               ),
